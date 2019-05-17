@@ -1,18 +1,21 @@
 {
   "name": "react-scripts",
-  "version": "3.0.1",
+  "version": "3.0.1-fork.2",
   "description": "Configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/shopback/create-react-app.git",
     "directory": "packages/react-scripts"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.infra.shopback.com:8081/repository/npm-internal/"
   },
   "license": "MIT",
   "engines": {
     "node": ">=8.10"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/shopback/create-react-app/issues"
   },
   "files": [
     "bin",
