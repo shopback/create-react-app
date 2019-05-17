@@ -8,7 +8,7 @@
     "directory": "packages/react-scripts"
   },
   "publishConfig": {
-    "registry": "nexus.infra.shopback.com:8081/repository/npm-all/"
+    "registry": "http://nexus.infra.shopback.com:8081/repository/npm-internal/"
   },
   "license": "MIT",
   "engines": {
