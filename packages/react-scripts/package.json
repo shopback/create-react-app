@@ -7,6 +7,9 @@
     "url": "https://github.com/shopback/create-react-app.git",
     "directory": "packages/react-scripts"
   },
+  "publishConfig": {
+    "registry": "nexus.infra.shopback.com:8081/repository/npm-all/"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=8.10"
